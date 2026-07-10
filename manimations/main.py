@@ -120,7 +120,7 @@ class SimulationTheoryDev(MovingCameraScene):
         )
 
     def demo_convo(self):
-        # ----- remove the small title so heading has room -----
+        
         self.play(FadeOut(self.onvan_kochak))
 
         sar_onvan = farsi(r"کانولوشن در عمل", font_size=34, color=CYAN)
